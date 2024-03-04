@@ -24,7 +24,7 @@ section#login{
     transform: translate(-50%, -50%);
     
     background-color: aliceblue;
-    width: 250px;
+    width: 255px;
     height: 500px;
     border-radius: 20px;
 
@@ -42,4 +42,12 @@ section#login > div#image{
 section#login > div#form{
     padding: 10px;
     display: block;
+}
+
+div#form > h1{
+    text-align: center;
+    margin-bottom: 10px;
+}
+div#form > p {
+    font-size: .8em;
 }
