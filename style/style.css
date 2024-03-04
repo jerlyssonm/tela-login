@@ -1,0 +1,45 @@
+@charset "utf-8";
+
+* {
+    font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body, html{
+    background-color:rgb(153, 112, 0);
+    height: 100vh;
+    width: 100vw;
+}
+
+main {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+section#login{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    background-color: aliceblue;
+    width: 250px;
+    height: 500px;
+    border-radius: 20px;
+
+    transition: width .3s, height .3s;
+    transition-timing-function: ease;
+}
+section#login > div#image{
+    display: block;
+    height: 200px;
+    background: rgb(153, 112, 0) url('../images/foto.jpg');
+    background-size: cover;
+    background-position: left bottom;
+    border-radius: 20px  20px 0px 0px;
+}
+section#login > div#form{
+    padding: 10px;
+    display: block;
+}
